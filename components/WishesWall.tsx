@@ -14,10 +14,10 @@ export default function WishesWall() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: '-100px' })
   const [wishes, setWishes] = useState<Wish[]>([
-    { id: '1', text: 'Thank you for everything, Mom! You are my universe ❤️', author: 'Sarah' },
-    { id: '2', text: 'You are my superhero and my inspiration! 💪', author: 'Michael' },
-    { id: '3', text: 'Best mom in the entire world! 🌟', author: 'Emma' },
-    { id: '4', text: 'Love you to the moon and back! 🌙', author: 'David' },
+    { id: '1', text: 'Thank you for everything, Mom! You are my universe ❤️', author: 'Your Child' },
+    { id: '2', text: 'You are my superhero and my inspiration! 💪', author: 'Your Loving Son' },
+    { id: '3', text: 'Best mom in the entire world! 🌟', author: 'Your Daughter' },
+    { id: '4', text: 'Love you to the moon and back! 🌙', author: 'Your Family' },
   ])
   const [newWish, setNewWish] = useState('')
   const [newAuthor, setNewAuthor] = useState('')
